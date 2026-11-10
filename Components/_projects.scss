@@ -1,0 +1,32 @@
+.projects__main {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 7.4rem;
+  row-gap: 7.5rem;
+}
+
+.projects__image {
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  box-shadow: 0 0 0.5rem var(--color-black);
+}
+.projects__data {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  max-width: 100%;
+}
+
+.projects__description {
+  align-items: center;
+  justify-content: center;
+  margin: 12 0;
+  /* max-width: 100%; */
+}
+
+.projects__links {
+  color: var(--color-dark-blue);
+}
+/* endprojects*/
